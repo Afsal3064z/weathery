@@ -1,7 +1,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
 <uses-permission android:name="android.permission.INTERNET" />
+<!--This is the permission for the fine location [The actual location of the user]-->
 <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+<!--This is the  corse location of the user-->
 <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+<!--This is for the location access in the background-->
+<uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
 
 
     <application

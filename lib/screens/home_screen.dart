@@ -4,7 +4,7 @@ import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:intl/intl.dart';
 import 'package:geolocator/geolocator.dart';
-import 'package:geocoding/geocoding.dart'; // Import the geocoding package
+import 'package:geocoding/geocoding.dart';
 import 'package:weatherapp/bloc/weather_bloc_bloc.dart';
 
 //This is the home back to the weather app
